@@ -1,0 +1,218 @@
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden !important;
+
+height: 100%;
+font-family: 'Poppins', sans-serif;
+}
+.title{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+nav{
+  background-color: black;
+  text-align: center;
+  margin: auto;
+}
+nav ul li a{
+  text-decoration: none;
+  float: left;
+  padding: 10px;
+  color: white;
+  background-color: black;
+}
+nav ul li{
+  display: inline;
+  color: white;
+}
+nav ul{
+  width: 100%;
+  margin: auto;
+
+}
+.navbar{
+  width: 100%;
+}
+button.btn{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+img{
+  width: 100%;
+  height: auto;
+  
+}
+#about{
+  /*background-image: url('../src/images/wall.jpg')  !important;
+  padding: 150px;
+  background-size: cover;
+  color: white;
+*/
+text-align: center;
+margin: auto;
+}
+#searchbox{
+  float: right;
+  margin-right: 0%;
+  align-items: right;
+}
+.blogcontainer {
+  max-width: 96vh;
+  margin: 1px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: lightgray;
+  /*background-color: #313133a4;*/
+}
+
+.form-control {
+  margin: 20px 0;
+  resize: none;
+  
+
+}
+.form-search{
+  float: left;
+  padding-right: 20px;
+  
+}
+button #search{
+  padding: 0px;
+  border-radius: 10px;
+}
+#searchinput{
+  padding: 13px;
+  border-radius: 5px;
+}
+.form-control label {
+  display: block;
+}
+form{
+  padding: 100px;
+  max-width: 600px;
+}
+
+.form-control input {
+
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer{
+  background-color: black;
+  width: 100%;
+}
+.home{
+ background-image: url('../src/bgimg.jpg') !important; 
+  background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 200px;
+background-blend-mode: normal;
+}
+.fa {
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bg-image{
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*width:300px;*/
+}
+
+.bg-image .mask{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color:#fff;
+}
+
+.bg-image .mask .text{
+  /* height: 100%; */
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+ /* display: block;
+  align-items: center;
+  justify-content: center;*/
+}
+
+.bg-image .mask .container .row .col-sm a{
+text-decoration: none;
+color: white;
+}
+
+.bg-image .mask .text h1{
+  margin:0;
+}
+
+.bg-image .mask .container {
+  position: relative;
+  height: 10%;
+  display: grid!important;
+  align-items: center!important;
+  justify-content: center!important;
+}
+
+.row{
+  text-align: center;
+  margin: auto;
+  padding: 20px 40px 20px 40px; 
+}
+.row .card{
+  padding: 40px;
+}
